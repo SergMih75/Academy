@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #101010;
+}
+
+.title-block {
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+}
+
+.star {
+    width: 1055px;
+    height: 668px;
+    background-image: url(../img/star.png);
+    position: absolute;
+    top: 20px;
+    left: 87px;
+    opacity: 0.8;
+}
+
+.link {
+    width: 972px;
+    height: 1335px;
+    background-image: url(../img/link.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -439px;
+    left: 512px;
+    opacity: 0.8;
+}
+
+.galaxy {
+    width: 681px;
+    height: 360px;
+    background-image: url(../img/galaxy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    transform: rotate(-7.97deg);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 160px;
+    left: -40px;
+}
+
+.logo {
+    width: 320px;
+    height: 320px;
+    background-image: url(../img/Logo.png);
+    position: absolute;
+    top: 143px;
+    right: 50px;
+    z-index: 2;
+}
+
+.name {
+    width: 680px;
+    position: relative;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    margin-top: 187px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    z-index: 3;
+}
+
+.name span {
+    color: #F9E884;
+}
+
+.slogan {
+    width: 680px;
+    position: relative;
+    margin-left: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33.6px;
+    z-index: 2;
+}
+
+.phone {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.slogan-filter {
+    width: 635px;
+    height: 232px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    opacity: 0.2;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    filter: blur(20px);
+}
+
+.approach {
+    height: 660px;
+    padding-top: 40px;
+    background-image: url(../img/bg2.png);
+}
+
+.app-title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    width: 1079px;
+    margin-left: 155px;
+}
